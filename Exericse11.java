@@ -55,6 +55,7 @@ public class Exericse11 {
             EmployeeNinja employeeNinja = combined.new EmployeeNinja(employee, ninja);
 
             employeeNinja.employee_method("is an employee.");
+            System.out.print("Employee tax rate: ");
             employeeNinja.tax(0.2);
             employeeNinja.ninja_method("is a ninja.");
             System.out.println("ninja name: " + employeeNinja.getNinjaName());
